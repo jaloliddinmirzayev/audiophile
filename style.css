@@ -1,0 +1,347 @@
+body {
+    background: #F2F2F2;
+}
+
+.audiophile {
+    width: 1300px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #0E0E0E;
+    width: 100%;
+    height: 700px;
+    border-radius: 10px;
+}
+
+nav {
+    background-color: #0E0E0E;
+    display: flex;
+    width: 100%;
+    height: 10%;
+}
+
+.Logo {
+    width: 20%;
+    height: 100%;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.nav-lists {
+    width: 80%;
+    height: 100%;
+}
+
+.nav-list {
+    list-style: none;
+}
+
+.nav-item {
+    margin-top: 7px;
+    float: left;
+    margin-left: 100px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: white;
+}
+
+.buy {
+    margin-left: 230px;
+}
+
+.hearor {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: #0E0E0E;
+}
+
+.hero-text {
+    color: white;
+    width: 50%;
+    height: 100%;
+}
+
+.product {
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    margin-top: 150px;
+    margin-left: 100px;
+}
+
+.headphone {
+    margin-left: 100px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 58px;
+}
+
+.headphone-text {
+    margin-left: 100px;
+    margin-right: 200px;
+}
+
+.btn {
+    margin-left: 100px;
+    /* background-color: #D87D4A; */
+    width: 150px;
+    height: 50px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 18px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.btn:hover {
+    box-shadow: rgba(213, 240, 75, 0.25) 0px 54px 55px, rgba(93, 232, 24, 0.12) 0px -12px 30px, rgba(91, 236, 23, 0.12) 0px 4px 6px, rgba(30, 233, 33, 0.17) 0px 12px 13px, rgba(41, 175, 11, 0.09) 0px -3px 5px;
+    color: red;
+}
+
+.hero-image {
+    width: 50%;
+    height: 100%;
+}
+
+.hero-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.shoping {
+    margin-top: 100px;
+    width: 100%;
+    height: 275px;
+}
+
+.shoping-lists {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.shoping-item {
+    width: 200px;
+    height: 150px;
+    list-style: none;
+    text-align: center;
+}
+
+.shoping-item a {
+    text-decoration: none;
+}
+
+.shoping-item a:hover {
+    color: orangered;
+}
+
+.speaker {
+    border-radius: 10px;
+    margin-top: 100px;
+    display: flex;
+    width: 100%;
+    height: 600px;
+    background-color: #D87D4A;
+}
+
+.speaker-images {
+    margin-top: 135px;
+    margin-left: 150px;
+    width: 50%;
+    height: 100%;
+}
+
+.speaker-text {
+    width: 50%;
+    height: 100%;
+}
+
+.speaker-text h1 {
+    margin-top: 170px;
+    width: 100px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-size: 56px;
+    line-height: 58px;
+    color: white;
+}
+
+.speaker-text p {
+    width: 300px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-size: 15px;
+    line-height: 25px;
+    color: white;
+}
+
+.btn2 {
+    width: 160px;
+    height: 48px;
+    color: white;
+    background-color: black;
+}
+
+.lite-text {
+    margin-top: 30px;
+    background-image: url("./images/background.png");
+    position: absolute;
+    width: 1300px;
+    height: 320px;
+    border-radius: 10px;
+}
+
+.zx7 {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-size: 28px;
+    line-height: 38px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-top: 100px;
+    margin-left: 150px;
+}
+
+.btn3 {
+    margin-left: 150px;
+    width: 160px;
+    height: 48px;
+    color: black;
+    background-color: transparent;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-size: 13px;
+    line-height: 15px;
+}
+
+.yx1-list {
+    display: flex;
+    margin-top: 375px;
+    width: 100%;
+    height: 300px;
+}
+
+.back-img {
+    width: 40%;
+    height: 100%;
+    background-image: url("./images/yt1.png");
+}
+
+.yx1 {
+    width: 60%;
+    height: 100%;
+    background-image: url("./images/Mask.png");
+}
+
+.yx1-text {
+    margin-top: 110px;
+    margin-left: 90px;
+}
+
+.btn4 {
+    margin-top: 10px;
+    margin-left: 90px;
+}
+
+.bringing {
+    display: flex;
+    margin-top: 20px;
+    width: 100%;
+    height: 600px;
+}
+
+.bringing-text {
+    width: 50%;
+    height: 100%;
+}
+
+.audio-gear {
+    margin-top: 150px;
+    margin-left: 90px;
+    font-size: 40px;
+    width: 350px;
+    height: 10 0px;
+}
+
+.audio-text {
+    width: 350px;
+    margin-left: 90px;
+}
+
+.oxirgi-qisim {
+    background-color: #0E0E0E;
+    width: 100%;
+    height: 300px;
+}
+
+.nav-oxiri {
+    display: flex;
+    width: 100%;
+    height: 2%;
+}
+
+.Logo-oxiri {
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+.oxirgi-list {
+    list-style: none;
+    display: flex;
+}
+
+.oxirgi-item1 {
+    color: white;
+    text-decoration: none;
+    margin-top: 50px;
+    margin-left: 550px;
+}
+
+.oxirgi-item {
+    color: white;
+    text-decoration: none;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+.oxirgi-text {
+    margin-top: 100px;
+    width: 540px;
+    height: 35%;
+    color: white;
+    margin-left: 50px;
+}
+
+.fulfill-link {
+    margin-left: 50px;
+    text-decoration: none;
+    color: white;
+}
+
+.oxirgi-link {
+    width: 50%;
+    height: 63%;
+}
+
+.facebok-link {
+    margin-left: 840px;
+}
+
+.twiter-link {
+    margin-left: 2px;
+}
+
+.instagram-link {
+    margin-left: 2px;
+}

@@ -125,6 +125,7 @@ nav {
 
 .shoping-lists {
     display: flex;
+    align-items: center;
     justify-content: space-between;
     align-items: center;
     margin-left: 150px;
@@ -150,9 +151,10 @@ nav {
     border-radius: 10px;
     margin-top: 100px;
     display: flex;
-    width: 100%;
+    width: 90%;
     height: 600px;
     background-color: #D87D4A;
+    margin-left: 75px;
 }
 
 .speaker-images {
@@ -197,9 +199,10 @@ nav {
     margin-top: 30px;
     background-image: url("./images/background.png");
     position: absolute;
-    width: 1300px;
+    width: 45%;
     height: 320px;
     border-radius: 10px;
+    margin-left: 155px;
 }
 
 .zx7 {
@@ -228,8 +231,9 @@ nav {
 .yx1-list {
     display: flex;
     margin-top: 375px;
-    width: 100%;
+    width: 90%;
     height: 300px;
+    margin-left: 155px;
 }
 
 .back-img {
@@ -257,8 +261,9 @@ nav {
 .bringing {
     display: flex;
     margin-top: 20px;
-    width: 100%;
+    width: 80%;
     height: 600px;
+    margin-left: 140px;
 }
 
 .bringing-text {
